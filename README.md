@@ -10,6 +10,8 @@ Add xmlns:customControl="shared/AutoComplete" on the page element.
                         </p>
                         <p>
 In your view-model:
+            </p>
+            <p>
 var countries = [
             'KENYA',
             'NAIGERIA',
@@ -31,6 +33,8 @@ var countries = [
  </p>
  <p>
  In your XLM:
+            </p>
+            <p>
  <customControl:AutoComplete data = '{{ list }}'  selectedValue ="{{ selectedValue }}" id="myControl" setThreshold="1" class="m-b-10"/>
  setThreshold property tells the control to show suggestions after a user has entered x characters. Default 3.
  
