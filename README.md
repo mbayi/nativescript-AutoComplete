@@ -38,13 +38,12 @@ var countries = [
     };
  </p>
  <p>
- In your XLM:
+            <b>In your XLM</b>
+            <br />		
+            &lt;customControl:AutoComplete data = "{{ list }}"  selectedValue ="{{ selectedValue }}" id="myControl" setThreshold="1"&#47;&gt;
             </p>
-            <p>
- <customControl:AutoComplete data = '{{ list }}'  selectedValue ="{{ selectedValue }}" id="myControl" setThreshold="1" class="m-b-10"/>
-            </p>
-            <p>
- setThreshold property tells the control to show suggestions after a user has entered x characters. Default 3.
- 
- You are allowed to extend this source code and even build a commuity plugin around it.
- </p>
+            <p>            
+            <b>setThreshold</b> property tells the control to show suggestions when a user has typed a give number of characters. Default threshhold is 3.
+            <br />
+            <customControl:AutoComplete data = "{{ list }}"  selectedValue ="{{ selectedValue }}" id="myControl" setThreshold="1" />
+</p>
