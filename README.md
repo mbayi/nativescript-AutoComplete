@@ -1,10 +1,10 @@
 # nativescript-AutoComplete
 A simple AutoComplete for nativescript
 
-##Install
-Simply download the files and add them to your project.
-
-##Usage
+<p>
+            #Install<br />Simply download the files and add them to your project.</p>
+<p>
+            #Usage<br />
 Add xmlns:customControl="shared/AutoComplete" on the page element.
 In your view-model:
 var countries = [
@@ -31,3 +31,4 @@ var countries = [
  setThreshold property tells the control to show suggestions after a user has entered x characters. Default 3.
  
  You are allowed to extend this source code and even build a commuity plugin around it.
+ </p>
