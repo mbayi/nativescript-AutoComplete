@@ -1,0 +1,21 @@
+<Page 
+    xmlns="http://schemas.nativescript.org/tns.xsd" 
+    xmlns:customControl="shared/AutoComplete"
+    loaded="{{ pageLoaded }}" 
+    navigatingTo="onNavigatingTo" 
+    class="page" 
+>  
+    
+    <ActionBar class="action-bar" title="Autocomplete" android.iconVisibility="false" style.background-color="#0271bc"></ActionBar>    
+         
+    <StackLayout orientation="vertical" class="form m-5 p-1">                
+        <StackLayout>                    
+            <customControl:AutoComplete data = '{{ list }}'  selectedValue ="{{ selectedValue }}" id="myControl" setThreshold="1" class="m-b-10"/>                    
+            <Label text="{{ autocomplete_value }}" class="label font-weight-bold m-b-10" style.text-align="left" style.color="#0271bc"/>                    
+
+            <button tap="{{ getText }}" text="Get text" class="btn btn-primary"></button>                    
+        </StackLayout>
+    </StackLayout>
+    
+    
+</Page>
