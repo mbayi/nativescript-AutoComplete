@@ -16,7 +16,7 @@ var countries = [
             'KENYA',
             'NAIGERIA',
             'UGANDA',
-            'TANZAZIA',
+            'TANZANIA',
             'SOUTH SUDAN',
             'SOUTH AFRICA',
             'SOMALIA',
