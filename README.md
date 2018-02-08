@@ -24,8 +24,14 @@ var countries = [
             'LIBYA',
             'LESOTHO'
         ];
+            </p>
+            <p>
  viewModel.set('list', countries);
- To get selected/entered text
+            </p>
+            <p>
+ To get selected/entered text:
+            </p>
+            <p>
  viewModel.getText = function (args) {
         var controlValue = view.getViewById(page, "myControl");
         console.log(controlValue.selectedValue);
