@@ -42,6 +42,8 @@ var countries = [
             </p>
             <p>
  <customControl:AutoComplete data = '{{ list }}'  selectedValue ="{{ selectedValue }}" id="myControl" setThreshold="1" class="m-b-10"/>
+            </p>
+            <p>
  setThreshold property tells the control to show suggestions after a user has entered x characters. Default 3.
  
  You are allowed to extend this source code and even build a commuity plugin around it.
